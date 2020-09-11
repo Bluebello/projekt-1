@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Lobster", sans-serif;
+    background-color: yellowgreen;
+}
+
+.wrapper {
+    width: 800px;
+    background-color: beige;
+    box-shadow: 0 0 10px#ffff;
+}
+
+.header {
+    background-image: url("https://mamopracuj.pl/wp-content/uploads/2018/09/jak_madrze_skompletowac_wyprawke_do_szkoly_800.jpg.webp");
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    height: 360px;
+    padding: 20px 40px;
+    font-family: 'Architects Daughter', cursive;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: rgb(50, 187, 205);
+    font-size: 30px;
+}
+
+input {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, .85);
+}
+
+.elementList {
+    padding: 20px 40px;
+    color: black;
+
+}
+
+h2 {
+    padding-bottom: 40px 0;
+
+}
+
+ul {
+    padding-bottom: 30px;
+    font-size: 20px;
+    list-style: none;
+}
+
+li {
+    padding: 4px 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+li:last-child {
+    padding: 4px 20px;
+    border-bottom: 0;
+}
